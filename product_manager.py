@@ -11,6 +11,15 @@ class ProductManager:
         for product in self.products:
             print(product.display_info())
 
+    def remove_product(self, name):
+        filtered_products = []
+        for product in self.products:
+            if product.name == name:
+                filtered_products.append(product)
+                print(f"Product '{product.name}' removed successfully!")
+            self.products = filtered_products
+
+
     def product_sum(self):
         sum_products = sum(product.price * product.quantity for product in self.products)
         print(f"Total sum of products: {float(sum_products)}")

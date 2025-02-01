@@ -13,4 +13,4 @@ manager.add_product(product2)
 manager.add_product(product3)
 manager.show_products()
 manager.product_sum()
-
+manager.remove_product("Laptop")
