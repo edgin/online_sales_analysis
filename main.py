@@ -15,8 +15,6 @@ product6 = Product("Mouse", 3,  99)
 manager.add_product(product1)
 manager.add_product(product2)
 manager.add_product(product3)
-<<<<<<< HEAD
-=======
 manager.add_product(product4)
 manager.add_product(product5)
 manager.add_product(product6)
@@ -25,7 +23,6 @@ manager.add_product(product6)
 manager.product_sum()
 
 #Remove product
->>>>>>> add-cart-functionality
 manager.remove_product("Laptop")
 
 #Display all available products
